@@ -1,8 +1,8 @@
-import java.util.Random;
-import java.io.*; 
 import java.util.*; 
-
 import java.util.Scanner;
+
+
+
 public class BCS345hw2 {
     
     static HashMap <Integer, Integer> hm = new HashMap<Integer, Integer>(); 
@@ -32,7 +32,6 @@ public class BCS345hw2 {
             if (hm.containsKey(allRolls[i]) ) 
                 hm.put(allRolls[i], hm.get(allRolls[i]) + 1); 
             else hm.put(allRolls[i] , 1); 
-           // System.out.println(roll);
         }
         
         System.out.printf("%-13s%-24s%s\n","Face Value","Number Of Occurrences","Frequency");
